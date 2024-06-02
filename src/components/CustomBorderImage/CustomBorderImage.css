@@ -1,0 +1,22 @@
+.custom-border-figure {
+    padding: 16px;
+    display: inline-block;
+    background: white;
+    border: 5px dashed;
+    border-radius: 10px;
+    position: relative;
+}
+
+.custom-border-figure::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: inherit;
+    border-radius: inherit;
+    pointer-events: none;
+    mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 50%, currentColor 50%);
+    mask-size: 10px;
+}
