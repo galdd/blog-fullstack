@@ -1,7 +1,8 @@
 import React from "react";
-import BlogSectionHeader from "./BlogSectionHeader";
+
 import BlogPost from "./BlogPost";
 import { blogPostsData } from "./blogPostsData";
+import SectionHeader from "@/components/Shared/SectionHeader";
 
 type BlogProps = {
   className?: string;
@@ -17,7 +18,7 @@ const Blog: React.FC<BlogProps> = ({ className }) => {
         <div className="flex justify-center items-center px-16 max-md:px-5 max-md:max-w-full">
           <div className="flex flex-col justify-center max-w-full w-[775px]">
             <div className="flex flex-col max-md:max-w-full">
-              <BlogSectionHeader category="BLOG" title="Latest blog posts" />
+              <SectionHeader category="BLOG" title="Latest blog posts" />
             </div>
           </div>
         </div>

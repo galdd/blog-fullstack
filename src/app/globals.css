@@ -65,3 +65,22 @@ body {
   z-index: 2;
 
 }
+
+.section-header {
+  font-family: 'YourFontFamily', sans-serif;
+  font-size: 2rem;
+  color: #00aaff;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.section-header h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.section-header p {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  color: #555;
+}

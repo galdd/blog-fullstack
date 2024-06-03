@@ -13,9 +13,8 @@ const MainContent: React.FC = () => {
         subtitle="This blog is written by Gal Dagan, a Full Stack developer with extensive experience in cybersecurity. The blog features guides on writing professional and clean code, secure coding practices, and modern technology trends."
       />
       <Blog className="blog" />
-      
-        <RecentWork />
 
+      <RecentWork />
 
       <ScrollToTopButton />
     </main>

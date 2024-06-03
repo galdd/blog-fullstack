@@ -1,4 +1,5 @@
 import ImageComponent from "@/components/Shared/ImageComponent";
+import SectionHeader from "@/components/Shared/SectionHeader";
 import React from "react";
 
 type AboutMeProps = {

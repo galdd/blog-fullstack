@@ -1,12 +1,11 @@
 import CustomBorderImage from "@/components/Shared/CustomBorderImage";
 import * as React from "react";
 import { recentWorksData } from "./recentWorksData";
+import SectionHeader from "@/components/Shared/SectionHeader";
 
 type RecentWorkProps = {
   imageSrc: string;
   altText: string;
-  title: string;
-  description: string;
   borderColor: string;
   isOdd: boolean;
 };
@@ -14,8 +13,6 @@ type RecentWorkProps = {
 const RecentWorkCard: React.FC<RecentWorkProps> = ({
   imageSrc,
   altText,
-  title,
-  description,
   borderColor,
   isOdd,
 }) => (
@@ -31,14 +28,6 @@ const RecentWorkCard: React.FC<RecentWorkProps> = ({
       width={540}
       height={648}
     />
-    <figcaption className="flex flex-col mt-6 max-md:mt-4 max-md:max-w-full">
-      <h2 className="text-4xl tracking-tighter text-cyan-900 max-md:text-2xl max-md:leading-7 max-md:max-w-full font-BygonestRusticRegular">
-        {title}
-      </h2>
-      <p className="mt-2 text-lg leading-7 text-slate-400 max-md:text-base max-md:leading-6 max-md:max-w-full">
-        {description}
-      </p>
-    </figcaption>
   </article>
 );
 
@@ -51,14 +40,7 @@ function RecentWorks() {
       <div className="mt-8 mb-2 w-full max-w-[1216px] max-md:mt-4 max-md:mb-1 max-md:max-w-full">
         <div className="flex gap-32 max-md:flex-col max-md:gap-8">
           <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-            <div className="flex flex-col mt-6 max-md:mt-4 max-md:max-w-full">
-              <h3 className="text-base leading-6 text-sky-300 max-md:text-sm max-md:max-w-full">
-                PORTFOLIO
-              </h3>
-              <p className="text-4xl tracking-tighter leading-10 text-cyan-900 max-md:text-2xl max-md:leading-8 max-md:max-w-full font-Bygonest">
-                Recent works
-              </p>
-            </div>
+            <SectionHeader category="PORTFOLIO" title="Recent works" />
             {recentWorksData.slice(3).map((work, index) => (
               <RecentWorkCard
                 key={index}

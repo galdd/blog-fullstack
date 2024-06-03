@@ -1,6 +1,6 @@
 // src/components/BlogPost.tsx
 import React from "react";
-import SectionHeader from "../SectionHeader/SectionHeader";
+import BlogSectionHeader from "../BlogSectionHeader/BlogSectionHeader";
 import ImageComponent from "@/components/Shared/ImageComponent";
 
 interface BlogPostProps {
@@ -27,13 +27,13 @@ const BlogPost: React.FC<BlogPostProps> = ({
         index={0}
       />
       <div className="flex flex-col justify-center mt-5">
-        <SectionHeader
+        <BlogSectionHeader
           text={label}
           className="text-sm font-bold leading-5 text-sky-300 "
         />
         <div className="flex flex-col mt-3">
           <div className="flex gap-4">
-            <SectionHeader
+            <BlogSectionHeader
               text={title}
               className="flex-1 text-2xl leading-8 text-cyan-900 font-BygonestRusticRegular"
             />
@@ -46,7 +46,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
               />
             </div>
           </div>
-          <SectionHeader
+          <BlogSectionHeader
             text={description}
             className="mt-2 text-base leading-6 text-slate-600"
           />
