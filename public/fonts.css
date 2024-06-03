@@ -1,0 +1,55 @@
+/* Bygonest Bold */
+@font-face {
+    font-family: 'Bygonest';
+    src: url('/fonts/Bygonest Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Bygonest Rustic Bold */
+@font-face {
+    font-family: 'Bygonest Rustic';
+    src: url('/fonts/Bygonest Rustic Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Bygonest Rustic Regular */
+@font-face {
+    font-family: 'Bygonest Rustic';
+    src: url('/fonts/Bygonest Rustic Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bygonest Rustic Thin */
+@font-face {
+    font-family: 'Bygonest Rustic';
+    src: url('/fonts/Bygonest Rustic Thin.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* SF Pro Text Bold */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('/fonts/SFPRODISPLAYBOLD.OTF') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* SF Pro Text Medium */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('/fonts/SFPRODISPLAYMEDIUM.OTF') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* SF Pro Text Regular */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('/fonts/SFPRODISPLAYREGULAR.OTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

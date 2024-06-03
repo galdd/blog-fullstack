@@ -2,6 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('../../public/fonts.css');
+
+.font-Bygonest {
+  font-family: 'Bygonest', sans-serif;
+  font-weight: bold;
+}
+
+.font-BygonestRusticBold {
+  font-family: 'Bygonest Rustic', sans-serif;
+  font-weight: bold;
+}
+
+.font-BygonestRusticRegular {
+  font-family: 'Bygonest Rustic', sans-serif;
+  font-weight: normal;
+}
+
+.font-SFProTextBold {
+  font-family: 'SF Pro Text', sans-serif;
+  font-weight: bold;
+}
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,12 +41,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {

@@ -14,7 +14,7 @@ const BlogSectionHeader: React.FC<BlogSectionHeaderProps> = ({
       <p className="text-base leading-6 text-sky-300 max-md:max-w-full">
         {category}
       </p>
-      <h1 className="text-4xl tracking-tighter leading-10 text-cyan-900 max-md:max-w-full">
+      <h1 className="text-4xl tracking-tighter leading-10 text-cyan-900 max-md:max-w-full font-Bygonest">
         {title}
       </h1>
     </div>

@@ -29,13 +29,13 @@ const BlogPost: React.FC<BlogPostProps> = ({
       <div className="flex flex-col justify-center mt-5">
         <SectionHeader
           text={label}
-          className="text-sm font-bold leading-5 text-sky-300"
+          className="text-sm font-bold leading-5 text-sky-300 "
         />
         <div className="flex flex-col mt-3">
           <div className="flex gap-4">
             <SectionHeader
               text={title}
-              className="flex-1 text-2xl leading-8 text-cyan-900"
+              className="flex-1 text-2xl leading-8 text-cyan-900 font-BygonestRusticRegular"
             />
             <div className="flex justify-center items-center self-start pt-1 pb-0.5">
               <ImageComponent

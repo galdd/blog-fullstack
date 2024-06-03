@@ -23,6 +23,11 @@ const Footer: React.FC = () => {
             alt="Icon 2"
             className="w-8 h-8"
           />
+          <ImageComponent
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/9c2242656887d7760132517e6b39c3a461c845979e50028d18abb878f900cd79?apiKey=68f079f8729e4181b13bdd329a153cde&"
+            alt="Icon 2"
+            className="w-8 h-8"
+          />
         </div>
       </div>
     </footer>

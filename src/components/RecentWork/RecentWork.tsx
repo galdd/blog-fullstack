@@ -31,7 +31,7 @@ const RecentWorkCard: React.FC<RecentWorkProps> = ({
       height={648}
     />
     <figcaption className="flex flex-col mt-6 max-md:mt-4 max-md:max-w-full">
-      <h2 className="text-4xl tracking-tighter text-cyan-900 max-md:text-2xl max-md:leading-7 max-md:max-w-full">
+      <h2 className="text-4xl tracking-tighter text-cyan-900 max-md:text-2xl max-md:leading-7 max-md:max-w-full font-BygonestRusticRegular">
         {title}
       </h2>
       <p className="mt-2 text-lg leading-7 text-slate-400 max-md:text-base max-md:leading-6 max-md:max-w-full">
@@ -108,7 +108,7 @@ function RecentWorks() {
               <h3 className="text-base leading-6 text-sky-300 max-md:text-sm max-md:max-w-full">
                 PORTFOLIO
               </h3>
-              <p className="text-4xl tracking-tighter leading-10 text-cyan-900 max-md:text-2xl max-md:leading-8 max-md:max-w-full">
+              <p className="text-4xl tracking-tighter leading-10 text-cyan-900 max-md:text-2xl max-md:leading-8 max-md:max-w-full font-Bygonest">
                 Recent works
               </p>
             </div>

@@ -12,7 +12,7 @@ const BlogHeader: React.FC<BlogHeaderProps> = ({ title, subtitle }) => (
     style={{ height: "320px" }}
   >
     <div className="flex flex-col w-2/3 px-6">
-      <h1 className="text-6xl tracking-tighter text-gray-900 leading-[72px] max-md:text-4xl max-md:leading-[55px]">
+      <h1 className="text-6xl tracking-tighter text-gray-900 leading-[72px] max-md:text-4xl max-md:leading-[55px] font-BygonestRusticRegular">
         {title}
       </h1>
       <p className="mt-4 text-xl leading-8 text-slate-600">{subtitle}</p>
@@ -24,6 +24,11 @@ const BlogHeader: React.FC<BlogHeaderProps> = ({ title, subtitle }) => (
         />
         <ImageComponent
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/9c2242656887d7760132517e6b39c3a461c845979e50028d18abb878f900cd79?apiKey=68f079f8729e4181b13bdd329a153cde&"
+          alt="Icon 2"
+          className="w-8 h-8"
+        />
+        <ImageComponent
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/2000701829492f16b4cc2576ee53b64a62135c25538cbf9ff4c25a5fb697c354?apiKey=68f079f8729e4181b13bdd329a153cde&"
           alt="Icon 2"
           className="w-8 h-8"
         />
