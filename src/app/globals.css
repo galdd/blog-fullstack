@@ -40,6 +40,7 @@
 }
 
 body {
+  overflow-x: hidden;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom,
       transparent,
@@ -50,4 +51,17 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+.about-me {
+  position: relative;
+  z-index: 3;
+
+}
+
+.blog {
+  position: relative;
+  z-index: 2;
+
 }

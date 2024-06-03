@@ -10,7 +10,7 @@ const BlogSectionHeader: React.FC<BlogSectionHeaderProps> = ({
   title,
 }) => {
   return (
-    <div className="flex flex-col max-md:max-w-full">
+    <div className="flex flex-col max-md:max-w-full ">
       <p className="text-base leading-6 text-sky-300 max-md:max-w-full">
         {category}
       </p>

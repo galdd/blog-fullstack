@@ -1,7 +1,7 @@
 // src/components/BlogPost.tsx
 import React from "react";
-import ImageComponent from "../ImageComponent";
 import SectionHeader from "../SectionHeader/SectionHeader";
+import ImageComponent from "@/components/Shared/ImageComponent";
 
 interface BlogPostProps {
   src: string;

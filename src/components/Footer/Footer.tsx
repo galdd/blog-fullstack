@@ -1,6 +1,6 @@
 // src/components/Footer.tsx
 import React from "react";
-import ImageComponent from "../ImageComponent";
+import ImageComponent from "../Shared/ImageComponent";
 
 const Footer: React.FC = () => {
   return (
