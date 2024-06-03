@@ -8,11 +8,16 @@ import ImageComponent from "../ImageComponent";
 const MainContent: React.FC = () => {
   return (
     <main>
-      <BlogHeader
-        title="Full Stack Chronicles: Adventures in Modern Web Development"
-        subtitle="This blog is written by Gal Dagan, a Full Stack developer with extensive experience in cybersecurity. The blog features guides on writing professional and clean code, secure coding practices, and modern technology trends."
-      />
-      <section className="flex flex-col px-24 pt-6 w-full shadow-sm max-md:px-5 max-md:max-w-full">
+      <section id="about-me">
+        <BlogHeader
+          title="Full Stack Chronicles: Adventures in Modern Web Development"
+          subtitle="This blog is written by Gal Dagan, a Full Stack developer with extensive experience in cybersecurity. The blog features guides on writing professional and clean code, secure coding practices, and modern technology trends."
+        />
+      </section>
+      <section
+        id="blog"
+        className="flex flex-col px-24 pt-6 w-full shadow-sm max-md:px-5 max-md:max-w-full"
+      >
         <div className="flex flex-col justify-center px-8 font-bold text-center max-md:px-5 max-md:max-w-full">
           <div className="flex justify-center items-center px-16 max-md:px-5 max-md:max-w-full">
             <div className="flex flex-col justify-center max-w-full w-[775px]">
@@ -63,7 +68,9 @@ const MainContent: React.FC = () => {
           </div>
         </div>
       </section>
-      <RecentWork />
+      <section id="recent-works">
+        <RecentWork />
+      </section>
     </main>
   );
 };

@@ -100,7 +100,7 @@ const recentWorksData = [
 
 function RecentWorks() {
   return (
-    <section className="flex justify-center items-center px-16 py-20 w-full bg-white max-md:px-5 max-md:py-10 max-md:max-w-full">
+    <section className="flex justify-center items-center px-16 py-4 w-full bg-white max-md:px-5 max-md:py-10 max-md:max-w-full">
       <div className="mt-8 mb-2 w-full max-w-[1216px] max-md:mt-4 max-md:mb-1 max-md:max-w-full">
         <div className="flex gap-32 max-md:flex-col max-md:gap-8">
           <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">

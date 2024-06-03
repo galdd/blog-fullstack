@@ -11,16 +11,20 @@ const Header: React.FC = () => {
               <ImageComponent
                 src="/images/logo.png"
                 alt="Company Logo"
-                className=" max-w-[125px] max-h-[75px] "
+                className="max-w-[125px] max-h-[75px]"
                 index={0}
               />
             </div>
-            <div className="flex gap-5 justify-between text-base leading-6 whitespace-nowrap font-[250] text-slate-600 max-md:flex-wrap max-md:gap-2">
-              <button className="justify-center my-auto max-md:my-0">
+            <div className="flex gap-5 justify-between text-base leading-6 whitespace-nowrap font-[250] text-slate-600 max-md:flex-wrap max-md:gap-2 items-center">
+              <a href="#about-me" className="my-auto max-md:my-0">
                 About Me
-              </button>
-              <button className="py-1 max-md:py-0">Blog</button>
-              <button className="py-1 max-md:py-0">Recent Works</button>
+              </a>
+              <a href="#blog" className="py-1 max-md:py-0">
+                Blog
+              </a>
+              <a href="#recent-works" className="py-1 max-md:py-0">
+                Recent Works
+              </a>
             </div>
           </div>
           <div
