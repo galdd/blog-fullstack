@@ -4,16 +4,15 @@ import RecentWork from "../RecentWork";
 import BlogHeader from "../BlogHeader";
 import BlogSectionHeader from "../BlogSectionHeader";
 import ImageComponent from "../ImageComponent";
+import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton";
 
 const MainContent: React.FC = () => {
   return (
     <main>
-      <section id="about-me">
-        <BlogHeader
-          title="Full Stack Chronicles: Adventures in Modern Web Development"
-          subtitle="This blog is written by Gal Dagan, a Full Stack developer with extensive experience in cybersecurity. The blog features guides on writing professional and clean code, secure coding practices, and modern technology trends."
-        />
-      </section>
+      <BlogHeader
+        title="Full Stack Chronicles: Adventures in Modern Web Development"
+        subtitle="This blog is written by Gal Dagan, a Full Stack developer with extensive experience in cybersecurity. The blog features guides on writing professional and clean code, secure coding practices, and modern technology trends."
+      />
       <section
         id="blog"
         className="flex flex-col px-24 pt-6 w-full shadow-sm max-md:px-5 max-md:max-w-full"
@@ -71,6 +70,7 @@ const MainContent: React.FC = () => {
       <section id="recent-works">
         <RecentWork />
       </section>
+      <ScrollToTopButton />
     </main>
   );
 };
